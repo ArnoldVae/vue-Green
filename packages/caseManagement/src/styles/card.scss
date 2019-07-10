@@ -1,0 +1,89 @@
+/* card - start */
+.cards {
+  text-align: left;
+  height: 700px;
+  overflow: auto;
+}
+.box-card {
+  width: 85%;
+  text-align: left;
+  margin-top: 17px;
+  margin-left: 5.5%;
+  display: inline-block;
+  /deep/.el-card__header {
+    padding: 0px 0px;
+    color: white;
+    background: #5C6FE5;
+    font-size: 21px;
+    font-weight: bold;
+    font-size: 14px;
+    .card-header{
+       padding: 12px 20px;
+    }
+  }
+  /deep/.el-card__body {
+    padding: 20px 20px 5px 20px;
+  }
+}
+.clearfix {
+  position: relative;
+  .title_state {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ffb800;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 2px;
+  }
+}
+.case_content {
+  padding-left: 5px;
+  font-size: 1em;
+  .term_state {
+    display: inline-block;
+    height: 25px;
+    padding: 0px 5px;
+    left: 5%;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #4caf50;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 2px;
+  }
+  .term_state_2 {
+    background: red;
+    color: #fff;
+  }
+  .case-num2{
+    border-left: 1px solid #dad5d5;
+  }
+}
+.case-num{
+  text-align: center;
+   margin: 0px 0px 20px 0px;
+   cursor: pointer;
+   .num{
+    font-size:30px
+   };
+   .name{
+    font-size: 12px;
+   }
+     
+}
+.case_btn {
+  padding-top: 0px;
+}
+.case_btn .el-button {
+  padding: 1px 11px;
+  height: 25px;
+}

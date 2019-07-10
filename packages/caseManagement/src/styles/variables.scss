@@ -1,0 +1,31 @@
+// 样式变量文件
+// layout
+$menuActiveBg:#2A52BB; //主要用于一级、二级导航选中色;
+$secondMenuBg:#2479e0; //主要用于二级导航未选中背景色;
+$tagsActiveBg:#2f76dd;// 主要用于多标签选中色，以及radio选中色，主要按钮颜色;
+$navbarHeight:72px; //一级菜单高
+$tagsViewHeight:44px; //多标签高
+$footerHeight:0; //footer高
+
+$sideBarWidth: 88px;
+// 表格
+$tableHeader-bg:#F3F8FF;
+$tableHeader-border:#e5e5e5;
+$tableHeader-color:#666666;
+$editable-bg:#EFF8FF;
+$tableContent-bg:#ffffff;
+$tableContent-border:#eeeeee;
+$tableContent-color:#666666;
+
+
+$defaultFontSize:17px !important;// 表单模板默认字号
+$inputBg:#DEEFFF;// 表单模板输入框背景
+$inputBorder:1px solid #85BEED;// 表单模板输入框边框颜色
+$inputHeight:40px;// 表单模板默认输入框高度
+$inputBorderRadius:4px;// 表单模板默认输入圆角
+$selectItemBg:#f6feff;// 多选框选中元素背景色
+
+// the :export directive is the magic sauce for webpack
+:export {
+  sideBarWidth: $sideBarWidth;
+}

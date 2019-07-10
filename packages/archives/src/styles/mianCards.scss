@@ -1,0 +1,363 @@
+/* 页面卡片样式 */
+/deep/.el-card__body{
+//      background: rgb(244,201,156);   
+    }
+
+/deep/.el-card__header{
+    background: #f9d3ac;
+    border-bottom: 1px solid #f9d3ac;
+    border-radius: 0 0 25px 25px;
+    color: #f5f5f7;
+}
+
+/deep/.el-card{
+//  background-color: rgb(244,201,156);
+    background: url('/img/cards.png') content-box no-repeat;
+    background-size: 100%;
+    box-shadow: 0px 0 0 0 #fff;
+    border: 0px;
+}
+/deep/.el-form-item__label {
+    font-size: 17px;
+    color: #666666;
+}   
+/deep/ .el-input{
+    font-size: 17px;
+}
+.el-date-editor.el-range-editor.el-input__inner.el-date-editor--daterange.el-date-editor {
+    /deep/.el-range-separator{
+        width: 6%;
+    }
+}
+
+
+/* 搜索栏 输入框样式  */
+.searchTime{
+    width: 72%;
+    text-align: right;
+    /deep/label{
+        font-size: 15px;
+        color: #333333;
+        margin: 0px 0px 0px 20px;
+    }
+    /deep/ .el-input{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1370px){
+    .evocatory /deep/ .box-card /deep/.el-card__body{
+        height: 81%;
+        padding: 0px;
+        /deep/.case_content{ 
+            height: 95%;
+            /deep/.el-form{ 
+                margin: 15px 0 0 0;
+                left: 17px;
+                position: relative;
+                /deep/ .el-form-item{
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                    border-bottom: 1px solid #efc692;
+                    width: 88%;
+                    /deep/.el-form-item__label {
+                        font-size: 14px;
+                        color: #666666;
+                    }
+                }
+            }
+            /deep/ img{
+                    position: absolute;
+                    float: right;
+                    right: 16px;
+                    width: 58px;
+                    bottom: 55px;
+                }
+        }
+     }
+     .search-container-input2{
+         height: 85%;
+     }
+    .search-container-input > .el-input {
+        width: 289px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 10px;
+        /deep/ input{
+            width: 100%;
+        }
+    }
+    .search-lable{
+        font-size: 20px;
+        margin-top: 16px;
+        top: 16%;
+    }
+    .searchTime{
+        float: right;
+        position: relative;
+        top: 16%;
+        right: 13px;
+    }
+    /deep/ .el-card.box-card{
+        width: 22%;
+        display: inline-block;
+        margin: 20px 10px;
+        float: left;
+        position: relative;
+        left: 18px;
+        height: 292px;
+    }
+    .clearfix{
+        text-align: center;
+         /deep/ img{
+        display: inline-block;
+        position: absolute;
+        width: 32px;
+        top: 11px;
+        text-align: left;
+        left: 49%;
+        }
+    }
+}
+@media screen and (min-width: 1900px) { 
+    .case-content > .el-row{
+        margin-top: 20px;
+    }
+     .evocatory /deep/ .el-row {
+        height: 62%;
+        
+    }
+    /deep/ .el-card.box-card{
+            width: 19%;
+            display: inline-block;
+            margin: 20px 10px;
+            float: left;
+            position: relative;
+            left: 18px;
+            height: 340px;
+        }
+    .evocatory /deep/ .box-card /deep/.el-card__body{
+        height: 90%;
+        padding: 15px 0;
+        /deep/.case_content{ 
+            /deep/.el-form{
+                left: 27px;
+                /deep/ .el-form-item{
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                    border-bottom: 1px solid #efc692;
+                    width: 88%;
+                    /deep/ label{
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+           /deep/ img{
+                    position: absolute;
+                    float: right;
+                    right: 19px;
+                    width: 65px;
+                    bottom: 55px;
+                }
+        }
+     }
+     .evocatory /deep/ .case_content.el-row{
+        height: 70%;
+        padding: 30px 0px 0px 0px;
+     }
+     
+    .evocatory .card-footer-div {
+        padding-top: 26px;
+        font-size: 19px;
+    }
+     .search-lable{
+        float: left;
+        font-size: 30px;
+        color: #999999;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .search-container-input2{
+        height: 79%;
+    }
+    .search-container-input > .el-input{
+        width: 320px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 25px;
+        /deep/ input{
+            width: 100%;
+        }
+    }
+    .searchTime{
+        float: right;
+        position: relative;
+        top: 27%;
+        right: 15px;
+    }
+    
+    /* 卡片图片大小*/
+    .clearfix{
+        text-align: center;
+         /deep/ img{
+        display: inline-block;
+        position: absolute;
+        width: 36px;
+        top: 15px;
+        text-align: left;
+        left: 46%;
+        }
+    }
+}
+
+/* 搜索栏样式*/
+.evocatory{
+    .caseCardCon >.el-main{
+        overflow-y: hidden;
+        height: 100%;
+    }
+    
+    .search-container-input > .el-input{
+        float: right;
+        margin-right: 40px;
+    }
+    .search-lable{
+        float: left;
+        color: #999999;
+        margin-left: 25px;
+    }
+    .search-container-input{
+        width: 100%;
+        height: 12%;
+//      border: 1px solid #d4d3d3;
+//      border-radius: 5px;
+//      box-shadow: 0px 0px 0px #c1c1c1, 0px 0px 0px #c1c1c1, 0px 1px 3px #c1c1c1, 0px 0px 0px #c1c1c1;
+    }
+    .search-container-input2{
+        width: 100%;
+        border: 1px solid #d4d3d3;
+        border-radius: 5px;
+        box-shadow: 0px 0px 0px #c1c1c1, 0px 0px 0px #c1c1c1, 0px 1px 3px #c1c1c1, 0px 0px 0px #c1c1c1;
+        margin-top: 10px;
+    }
+}
+
+/*弹出框样式 高度 内容高度*/
+.evocatory{
+  /deep/.dialog_content{
+    height: 100%;
+    /deep/ .el-dialog__body{
+        height: 80%;
+      }
+    /deep/ .el-dialog__footer{
+        padding: 8px 20px 20px;
+    }
+  }
+  .el-dialog__wrapper.mc-dialog-medium.dialog_content{
+     /deep/.el-dialog.el-dialog--center{
+        height: 80%;
+       } 
+  }
+  
+}
+/* 卡片样式   */
+.evocatory{
+    .cards{
+       width:100% ;
+       height: 90%;
+       /deep/ .el-row{
+           height: 100%;
+       }
+    }
+    .el-card.box-card /deep/.el-card__header{
+        padding: 0px;
+        height: 14%;
+     }
+     .el-card.box-card /deep/ .el-card__body{
+         /deep/ .case_content{
+            font-size: 1em;
+            width: 100%;
+            height: 95%;
+            margin: 10px auto;
+            /deep/ .el-form{
+                margin: 15px 0 0 0;
+                padding: 5px 15px;
+                left: 17px;
+                position: relative;
+                height: 85%;
+                /deep/ .el-form-item__label{
+                    width: 30%;
+                    text-align: right;
+                    color: #ada199;
+                }
+                /deep/ .el-form-item__content{
+                    float: left;
+                    left: 10px;
+                }
+                
+            }
+            /deep/ .unitTitle{
+                    color: #9C6736;
+                    font-weight: bold;
+                    font-size: 15px;
+                    width: 100%;
+                    text-align: left;
+                    padding: 0 37px;
+                    /deep/ span{
+                        margin: 0 10px;
+                    }
+                }
+         }
+     }
+    /deep/ .menu-item{
+        height: 100%;
+    }
+    
+    .clearfix /deep/ span{
+        position: relative;
+        float: left;
+        padding: 10px 10px;
+    }
+    
+}
+/* 列表样式 */
+.block.margin-top{
+    height: 90%;
+    .table{
+        height: 100%;
+        padding: 10px;
+    }
+    
+}
+/*-- 档案状态标签样式----------*/
+.title_states /deep/ img{
+    position: absolute;
+    top: 0px;
+    right: 19px;
+}
+.case_content /deep/ .title_states /deep/ .span{
+    width: 42px;
+    position: absolute;
+    float: right;
+    right: 16px;
+    transform: rotate(45deg);
+    top: 11px;
+    color: #fff;
+    font-size: 14px;
+}
+//分页样式
+.page-positton{
+    /deep/.el-pagination{
+        margin: -15px 16px 20px 16px;
+    }
+    height: 48px;
+    z-index: 3;
+    text-align: right;
+    left: 0;
+    position: fixed;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+

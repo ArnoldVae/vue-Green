@@ -1,0 +1,67 @@
+/* card - start */
+.cards {
+  text-align: left;
+  height: 700px;
+  overflow: auto;
+}
+.box-card {
+  width: 450px;
+  height: 300px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 5.5%;
+  display: inline-block;
+  /deep/.el-card__header {
+    background: #c2dbf9;
+    font-size: 21px;
+    font-weight: bold;
+  }
+}
+.clearfix {
+  position: relative;
+  .title_state {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ffb800;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 2px;
+  }
+}
+.case_content {
+  padding-left: 5px;
+  font-size: 1em;
+  .term_state {
+    display: inline-block;
+    height: 25px;
+    padding: 0px 5px;
+    left: 5%;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #4caf50;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 2px;
+  }
+  .term_state_2 {
+    background: red;
+    color: #fff;
+  }
+}
+.case_btn {
+  padding-top: 0px;
+}
+.case_btn .el-button {
+  padding: 1px 11px;
+  height: 25px;
+}
+/* card - end */

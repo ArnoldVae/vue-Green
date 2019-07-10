@@ -1,0 +1,141 @@
+// 公共样式文件
+
+.font-color-white {
+    color: white
+}
+
+.font-color-red {
+    color: #F60E1B
+}
+
+.font-color-green {
+    color: #29F6B7
+}
+
+
+.font-size-28 {
+    font-size: 28px
+}
+
+.font-size-21 {
+    font-size: 21px
+}
+
+.font-size-26 {
+    font-size: 26px
+}
+
+.font-size-32 {
+    font-size: 32px
+}
+
+.font-size-30 {
+    font-size: 30px
+}
+
+.font-size-16 {
+    font-size: 16px
+}
+
+.font-size-14 {
+    font-size: 14px
+}
+
+.font-size-18 {
+    font-size: 18px
+}
+
+.font-size-20 {
+    font-size: 20px
+}
+
+.font-size-24 {
+    font-size: 24px
+}
+
+.font-size-9 {
+    font-size: 9px
+}
+
+.font-size-12 {
+    font-size: 12px
+}
+
+.font-size-19 {
+    font-size: 19px
+}
+
+.font-size-22 {
+    font-size: 22px
+}
+.font-size-50 {
+    font-size: 50px
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+.bottom18{
+    margin-bottom: 18px;
+}
+
+//card---------------------------start
+.margin_left_94 {
+    margin-left: -94%;
+}
+
+.font_size_120 {
+    font-size: 120px;
+    color: #6085c4;
+}
+
+.margin_top_4 {
+    margin-top: 4%;
+
+}
+
+.margin_left_0 {
+    margin-left: 0;
+}
+
+//card---------------------------end
+
+
+.text-center {
+    text-align: center
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.block {
+    display: block;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.clearfix {
+    &:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+}

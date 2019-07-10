@@ -1,0 +1,48 @@
+[
+{
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "线索管理",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/leadManagement",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/leadManagement",
+        "title": "线索受理"
+      }, {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/leadDispose",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/leadDispose",
+        "title": "线索处置"
+      }, {
+        "menuid": "097e2dcefc5641a493e8",
+        "icon": "&#xe638;",
+        "href": "/leadDistributed",
+        "id": "097e2dcefc5641a493e8",
+        "url": "/leadDistributed",
+        "title": "线索分发"
+      }, {
+        "menuid": "097e2dcefc5641a49312",
+        "icon": "&#xe635;",
+        "href": "/dispose",
+        "id": "097e2dcefc5641a49312",
+        "url": "/dispose",
+        "title": "线索办理"
+      }, {
+        "menuid": "097e2dcefc5641a49333",
+        "icon": "&#xe635;",
+        "href": "/notificationFeedback",
+        "id": "097e2dcefc5641a49333",
+        "url": "/notificationFeedback",
+        "title": "通报反馈"
+      }
+    ]
+  }
+]

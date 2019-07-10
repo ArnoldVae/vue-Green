@@ -1,0 +1,89 @@
+[{
+  "menuid": "101f42f0d09f409286d5",
+  "icon": "&#xe60a;",
+  "href": "#",
+  "id": "101f42f0d09f409286d5",
+  "url": "#",
+  "title": "电子归档",
+  "children": [
+    {
+      "menuid": "0954f3e88f2a4b748d68",
+      "icon": "&#xe638;",
+      "href": "/archiveFile",
+      "id": "0954f3e88f2a4b748d68",
+      "url": "/archiveFile",
+      "title": "档案归档"
+    },
+    {
+      "menuid": "0954f3e88f2a4b748d68",
+      "icon": "&#xe638;",
+      "href": "/fileTransfer",
+      "id": "0954f3e88f2a4b748d68",
+      "url": "/fileTransfer",
+      "title": "档案移交"
+    }
+  ]
+},
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "归档调阅",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d78",
+        "icon": "&#xe639;",
+        "href": "/archivesCheck",
+        "id": "0954f3e88f2a4b748d78",
+        "url": "/archivesCheck",
+        "title": "调阅登记"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/archiveRead",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/archiveRead",
+        "title": "调阅归还"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/deliver",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/deliver",
+        "title": "调阅出库"
+      }
+    ]
+    },
+    
+    {
+      "menuid": "101f42f0d30f409286d5",
+      "icon": "&#xe60a;",
+      "href": "#",
+      "id": "101f42f0d30f409286d5",
+      "url": "#",
+      "title": "查询统计",
+      "children": [
+        {
+          "menuid": "0954f3e78f2a4b748d68",
+          "icon": "&#xe638;",
+          "href": "/queryanalyze",
+          "id": "0954f3e78f2a4b748d68",
+          "url": "/queryanalyze",
+          "title": "简单查询"
+        },
+        {
+          "menuid": "0955f3e88f2a4b748d68",
+          "icon": "&#xe638;",
+          "href": "/fileTransfer",
+          "id": "0955f3e88f2a4b748d68",
+          "url": "/fileTransfer",
+          "title": "档案移交"
+        }
+      ]
+  
+    }
+]

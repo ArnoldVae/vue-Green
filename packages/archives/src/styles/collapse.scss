@@ -1,0 +1,23 @@
+/*折叠板样式*/
+.el-collapse-item{
+  border: 1px solid #eceae9;
+  border-radius: 8px;
+  .el-radio-group{
+    margin: 0;
+  }
+}
+.el-collapse-item:nth-child(n+1){
+  margin-top: 16px;
+}
+/deep/.el-collapse-item__header{
+  border-bottom: 1px solid #eceae9;
+  border-top-radius: 8px;
+  padding: 0 24px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #2f76dd;
+}
+/deep/ .el-collapse{
+  border-top: none;
+}

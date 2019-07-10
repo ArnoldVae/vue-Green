@@ -1,0 +1,197 @@
+
+.el-main{
+    padding: 10px 10px 0 10px !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .search-result{
+        flex: 1;
+        margin-top: 10px;
+    }
+}
+.query-box{
+
+    position: relative;
+    height: 100%;
+
+
+    .bg-layout{
+
+        background:rgb(245, 245, 245);
+        //background-color: #ffffff;
+        //height: 100%;
+        position: relative;
+
+        display: flex;
+        flex-flow: column;
+        bottom: 0;
+        height: 100%;
+        .block{
+            padding: 0;
+
+            /deep/.el-form-item__label{
+                font-size: 16px;
+
+            }
+            background: white;
+            .title{
+                height: 32px;
+                line-height: 32px;
+                text-align: left;
+                padding: 0;
+                padding: 0px 20px;
+                font-size: 16px;
+                color: #2f76dd;
+                span{
+                    float: right;
+                }
+            }
+            .search{
+                padding: 14px;
+            }
+            .table{
+                margin-bottom: 40px;
+                padding:10px;
+                flex: 1;
+                position: relative;
+                display: flex;
+                flex-flow: column;
+                border-top: 1px solid RGB(235, 238, 245);
+                white-space: nowrap;
+                .el-button--mini{
+                    padding: 4px 15px;
+                }
+
+            }
+            /deep/.el-form-item{
+                margin-left: -20px;
+                margin-top: 7px;
+            }
+            .main-title-btn{
+                position: absolute;
+                right: 20px;
+                top: 10%;
+                font-size: 14px;
+                color: #2f76dd;
+                span{
+                    margin-left: 8px
+                }
+            }
+            .el-collapse-item__header{
+                height: 35px;
+            }
+            /deep/.el-collapse-item__header {
+                display: flex;
+                align-items: center;
+                height: 35px;
+                line-height: 35px;
+                color: #303133;
+                cursor: pointer;
+                border-bottom: 1px solid #ebeef5;
+                font-size: 13px;
+                font-weight: 500;
+                transition: border-bottom-color .3s;
+                outline: 0;
+            }
+        }
+    }
+
+}
+.query-box-scroll{
+    position: relative;
+    height: 100%;
+
+    .bg-layout{
+        padding: 0;
+
+        background:rgb(245, 245, 245);
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        .margin-top{
+            margin-top:16px;
+            flex: 1;
+            display: flex;
+            flex-flow: column;
+        }
+        .block{
+            padding: 0;
+            /deep/.el-form-item__label{
+                font-size: 16px;
+
+            }
+
+            background: white;
+            .title{
+                height: 32px;
+                line-height: 32px;
+                text-align: left;
+                padding: 0;
+                padding: 0px 20px;
+                font-size: 16px;
+                color: #2f76dd;
+                span{
+                    float: right;
+                }
+            }
+            .search{
+                padding: 14px;
+            }
+            .table{
+                padding:20px 20px 11px 20px;
+                flex: 1;
+                margin-bottom: 48px;
+                position: relative;
+                display: flex;
+                flex-flow: column;
+                border-top: 1px solid RGB(235, 238, 245);
+            }
+            .main-title-btn{
+                position: absolute;
+                right: 20px;
+                top: 10%;
+                font-size: 14px;
+                color: #2f76dd;
+                span{
+                    margin-left: 8px
+                }
+            }
+            .el-collapse-item__header{
+                height: 45px;
+            }
+            /deep/.el-collapse-item__header {
+                display: flex;
+                align-items: center;
+                height: 45px;
+                line-height: 45px;
+                color: #303133;
+                cursor: pointer;
+                border-bottom: 1px solid #ebeef5;
+                font-size: 13px;
+                font-weight: 500;
+                transition: border-bottom-color .3s;
+                outline: 0;
+            }
+        }
+    }
+
+}
+
+.page-positton{
+    /deep/.el-pagination{
+        margin: 10px 16px 20px 16px;
+    }
+    height: 48px;
+    z-index: 3;
+    text-align: right;
+    left: 0;
+    position: fixed;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    left: -2%;
+}
+

@@ -1,0 +1,32 @@
+// 框架布局样式文件
+
+#app {
+
+  // 主体区域 Main container
+  .main-container {
+    min-height: 100%;
+    position: relative;
+
+    .tags-view-container {
+      margin-left: $sideBarWidth;
+      overflow: auto;
+    }
+
+    .app-main {
+      position: absolute;
+      top: $navbarHeight + $tagsViewHeight;
+      bottom: $footerHeight;
+      left: $sideBarWidth;
+      right: 0;
+      overflow: auto;
+    }
+  }
+
+  // 侧边栏 Sidebar container
+  .sidebar-container {
+    width: $sideBarWidth !important;
+    z-index: 1002;
+    background: #ffffff;
+
+  }
+}
