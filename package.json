@@ -1,0 +1,79 @@
+{
+  "name": "rome3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "rome project v3",
+  "main": "index.ts",
+  "scripts": {
+    "mock": "lerna run mock --scope mock --stream",
+    "dev": "concurrently \"npm run dev:archives\" \"npm run dev:caseHearing\" \"npm run dev:caseManagement\" \"npm run dev:decision\" \"npm run dev:examination\" \"npm run dev:homepage\" \"npm run dev:integrated\" \"npm run dev:patrol\" \"npm run dev:petitionLetter\" \"npm run dev:platform\" \"npm run dev:supervise\" \"npm run dev:teamManagement\"",
+    "dev:archives": "lerna run dev --scope archives --stream",
+    "dev:caseHearing": "lerna run dev --scope caseHearing --stream",
+    "dev:caseManagement": "lerna run dev --scope caseManagement --stream",
+    "dev:decision": "lerna run dev --scope decision --stream",
+    "dev:examination": "lerna run dev --scope examination --stream",
+    "dev:homepage": "lerna run dev --scope homepage --stream",
+    "dev:integrated": "lerna run dev --scope integrated --stream",
+    "dev:patrol": "lerna run dev --scope patrol --stream",
+    "dev:petitionLetter": "lerna run dev --scope petitionLetter --stream",
+    "dev:platform": "lerna run dev --scope platform --stream",
+    "dev:supervise": "lerna run dev --scope supervise --stream",
+    "dev:teamManagement": "lerna run dev --scope teamManagement --stream",
+    "dev:involvedFinance": "lerna run dev --scope involvedFinance --stream",
+    "uat": "concurrently \"npm run uat:archives\" \"npm run uat:caseHearing\" \"npm run uat:caseManagement\" \"npm run uat:decision\" \"npm run uat:examination\" \"npm run uat:homepage\" \"npm run uat:integrated\" \"npm run uat:patrol\" \"npm run uat:petitionLetter\" \"npm run uat:platform\" \"npm run uat:supervise\" \"npm run uat:teamManagement\"",
+    "uat:archives": "lerna run uat --scope archives --stream",
+    "uat:caseHearing": "lerna run uat --scope caseHearing --stream",
+    "uat:caseManagement": "lerna run uat --scope caseManagement --stream",
+    "uat:decision": "lerna run uat --scope decision --stream",
+    "uat:examination": "lerna run uat --scope examination --stream",
+    "uat:homepage": "lerna run uat --scope homepage --stream",
+    "uat:integrated": "lerna run uat --scope integrated --stream",
+    "uat:patrol": "lerna run uat --scope patrol --stream",
+    "uat:petitionLetter": "lerna run uat --scope petitionLetter --stream",
+    "uat:platform": "lerna run uat --scope platform --stream",
+    "uat:supervise": "lerna run uat --scope supervise --stream",
+    "uat:teamManagement": "lerna run uat --scope teamManagement --stream",
+    "uat:involvedFinance": "lerna run uat --scope involvedFinance --stream",
+    "build": "concurrently \"npm run build:integrated\" \"npm run build:caseHearing\" \"npm run build:caseManagement\" \"npm run build:decision\" \"npm run build:examination\" \"npm run build:homepage\" \"npm run build:archives\" \"npm run build:patrol\" \"npm run build:petitionLetter\" \"npm run build:platform\" \"npm run build:supervise\" \"npm run build:teamManagement\"",
+    "build:archives": "lerna run build --scope archives --stream",
+    "build:caseHearing": "lerna run build --scope caseHearing --stream",
+    "build:caseManagement": "lerna run build --scope caseManagement --stream",
+    "build:decision": "lerna run build --scope decision --stream",
+    "build:examination": "lerna run build --scope examination --stream",
+    "build:homepage": "lerna run build --scope homepage --stream",
+    "build:integrated": "lerna run build --scope integrated --stream",
+    "build:patrol": "lerna run build --scope patrol --stream",
+    "build:petitionLetter": "lerna run build --scope petitionLetter --stream",
+    "build:platform": "lerna run build --scope platform --stream",
+    "build:supervise": "lerna run build --scope supervise --stream",
+    "build:teamManagement": "lerna run build --scope teamManagement --stream",
+    "build:involvedFinance": "lerna run build --scope involvedFinance --stream"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/jackzhu2018/rome3.git"
+  },
+  "keywords": [
+    "rome"
+  ],
+  "author": "jack",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/common",
+      "packages/caseHearing",
+      "packages/mock"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "sass-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
+    "lerna": "^3.13.4",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}

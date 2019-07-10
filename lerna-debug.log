@@ -1,0 +1,15 @@
+0 silly argv { _: [ 'run' ],
+0 silly argv   scope: 'mock',
+0 silly argv   stream: true,
+0 silly argv   lernaVersion: '3.13.1',
+0 silly argv   '$0':
+0 silly argv    '/Users/martin/work/mc/JUNJIWEI/code/node_modules/.bin/lerna',
+0 silly argv   script: 'mock' }
+1 notice cli v3.13.1
+2 verbose rootPath /Users/martin/work/mc/JUNJIWEI/code
+3 error Error: Invalid package name "_frame": name cannot start with an underscore
+3 error     at invalidPackageName (/Users/martin/work/mc/JUNJIWEI/code/node_modules/npm-package-arg/npa.js:82:15)
+3 error     at Result.setName (/Users/martin/work/mc/JUNJIWEI/code/node_modules/npm-package-arg/npa.js:118:11)
+3 error     at new Result (/Users/martin/work/mc/JUNJIWEI/code/node_modules/npm-package-arg/npa.js:107:23)
+3 error     at Function.resolve (/Users/martin/work/mc/JUNJIWEI/code/node_modules/npm-package-arg/npa.js:54:15)
+3 error     at new Package (/Users/martin/work/mc/JUNJIWEI/code/node_modules/@lerna/package/index.js:36:26)

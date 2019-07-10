@@ -1,0 +1,148 @@
+/* dialogBox - start */
+.mc-dialog-big{
+  .el-dialog__wrapper{
+    text-align: left;
+  }
+  .el-dialog{
+    background: #f6f6f6;
+    height:100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  .el-dialog__title{
+    padding: 0px;
+    font-size: 24px;
+    line-height: 48px;
+    height: 48px;
+    padding-left: 60px;
+    color: #1c51ab;
+    font-weight: bold;
+  }
+  .el-dialog__header{
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    padding: 0px;
+    position: fixed;
+    z-index: 999;
+    text-align: left;
+    box-shadow: 18px 6px 18px #DEDFE2;
+    .el-dialog__headerbtn{
+      //border: 1px solid red;
+      top: 15px;
+    }
+  }
+  .el-dialog__title::before{
+    border-radius: 5px;
+    content: '';
+    width: 8px;
+    height: 20px;
+    background-color: #fdb72b;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+  }
+  .el-dialog__close::before{
+    content: "\E60F";
+    background: red;
+    width: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 4px;
+  }
+  .el-dialog__close::after{
+    content: '关闭';
+    color: red
+  }
+  .el-dialog__body{
+    background: #F2F2F2!important;
+    padding :4.8% 3% 48px 3%;
+    height: 100%;
+    overflow: auto;
+  }
+  .dialog-footer{
+    box-shadow: 0px -4px 3px #4c4c4c12;
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    background-color: white;
+    bottom: 0px;
+    z-index: 666;
+    left:0
+
+  }
+}
+.mc-dialog-medium{
+   .el-dialog--center{
+      .el-dialog__header{
+          border-bottom: 1px solid #DCDFE6;
+          font-weight: 500;
+          text-align: left;
+          height: 48px;
+          padding-left: 46px;
+          padding-top: 18px;
+          &::before{
+              border-radius: 5px;
+              content: '';
+              width: 8px;
+              height: 20px;
+              background-color: #fdb72b;
+              position: absolute;
+              top: 18px;
+              left: 28px;
+          }
+          .el-dialog__title {
+              color: #1c51ab;
+              line-height: 20px;
+              font-weight: bold
+          }
+          .el-dialog__headerbtn{
+            //border: 1px solid red;
+            top: 15px;
+          }
+          .el-dialog__close::before{
+            content: "\E60F";
+            background: red;
+            width: 30px;
+            margin-right: 10px;
+            font-size: 15px;
+            color: white;
+            border-radius: 20px;
+            padding: 4px;
+          }
+          .el-dialog__close::after{
+            content: '关闭';
+            color: red
+          }
+      }
+      .el-dialog__body {
+        .form-label-top .el-col{
+          padding: 0px 28px 12px 0px;
+        }
+          text-align: initial;
+          padding :1.1% 0 20px 3%;
+          max-height: 380px;
+          overflow: auto;
+      }
+      .el-dialog__footer {
+          border-top: 1px solid #DCDFE6;
+        .dialog-footer{
+          margin-top: -12px;
+        }
+        height: 40px;
+        line-height: 40px;
+
+      }
+
+  } 
+}
+
+// 时间控件“至”最小宽度设置
+.el-range-separator{
+  min-width: 25px;
+}
+
+/* dialogBox - end */

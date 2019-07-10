@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+.vscode/
+packages/cordova/platforms/
+packages/app/package-lock.json
+packages/cordova/package-lock.json
+packages/caseHearing/package-lock.json
+package-lock.json
+zTree_v3 2
+dist/

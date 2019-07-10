@@ -1,0 +1,61 @@
+// 重写zTree样式
+.ztree li {
+  min-height: 30px !important;
+  line-height: 30px !important;
+  width: max-content;
+}
+.ztree li span.button.ico_close {
+  background-position: -147px -2px !important;
+  vertical-align: middle !important;
+}
+.ztree li span.button.ico_open {
+  background-position: -147px -21px !important;
+  vertical-align: middle !important;
+}
+.ztree li span.button.root_open {
+  background-position: -105px -91px !important;
+}
+.ztree li span.button.root_close {
+  background-position: -126px -91px !important;
+}
+
+.ztree li span.button.center_open {
+  background-position: -105px -29px !important;
+}
+.ztree li span.button.center_close {
+  background-position: -126px -29px !important;
+}
+
+
+.ztree li span.button.center_docu {
+  background-position: -84px -29px !important;
+}
+.ztree li span.button.bottom_docu {
+  background-position: -84px -29px !important;
+}
+
+.ztree li span.button.ico_docu {
+  background-position: -147px -38px !important;
+}
+
+.ztree li span.button.switch {
+  height: 32px !important;
+}
+
+
+//下拉
+.ztree li span.button.bottom_open {
+  background-position: -105px -63px !important;
+}
+.ztree li span.button.roots_close {
+  background-position: -126px 6px !important;
+}
+.ztree li span.button.roots_open {
+  background-position: -105px 6px !important;
+}
+.ztree li span.button.bottom_close {
+  background-position: -126px -63px !important;
+}
+.ztree li span.button.bottom_docu {
+  background-position: -84px -64px !important;
+}

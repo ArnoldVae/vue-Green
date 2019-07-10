@@ -1,0 +1,449 @@
+[{
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "案件受理",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b743434",
+        "icon": "&#xe638;",
+        "href": "/manualRegister",
+        "id": "0954f3e88f2a4b742323",
+        "url": "/manualRegister",
+        "title": "手动登记"
+      },
+       {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/departmentTo",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/departmentTo",
+        "title": "其他部门转入"
+      },
+      {
+        "menuid": "0954f3e66f2a4b748d48",
+        "icon": "&#xe638;",
+        "href": "/departmentTo_1",
+        "id": "0954f3e66f2a4b748d48",
+        "url": "/departmentTo_1",
+        "title": "其他部门转入_1"
+      }
+    ]
+  },
+	{
+    "menuid": "101f42f33409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f33409286d5",
+    "url": "#",
+    "title": "审理案件管理",
+    "children": [
+      {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/hearCaseManage/caseAccept/caseAcceptMain",
+        "id": "",
+        "url": "/hearCaseManage/caseAccept/caseAcceptMain",
+        "title": "案件受理"
+      }, {
+        "menuid": "",
+        "icon": "&#xe6311112;",
+        "href": "/modalityAuditM",
+        "id": "",
+        "url": "/modalityAuditM",
+        "title": "初步审核"
+      }, {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/hearCaseManage/auditDeliberation/auditDeliberationMain",
+        "id": "",
+        "url": "/hearCaseManage/auditDeliberation/auditDeliberationMain",
+        "title": "案件审理"
+      },{
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/caseCarry",
+        "id": "",
+        "url": "/caseCarry",
+        "title": "案件执行"
+      }
+    ]
+  },{
+    "menuid": "101f42f44409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f44409286d5",
+    "url": "#",
+    "title": "审核案件管理",
+    "children": [
+      {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/firstTrialAuditing",
+        "id": "",
+        "url": "/firstTrialAuditing",
+        "title": "案件受理"
+      }, {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/modalityAuditing",
+        "id": "",
+        "url": "/modalityAuditing",
+        "title": "初步审核"
+      }, {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/auditDeliberationAuditing",
+        "id": "",
+        "url": "/auditDeliberationAuditing",
+        "title": "案件审核"
+      },{
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/auditingCaseManage/feedbackOpinion",
+        "id": "",
+        "url": "/auditingCaseManage/feedbackOpinion",
+        "title": "审核结案"
+      }
+    ]
+  },{
+    "menuid": "121f42f33409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "121f42f33409286d5",
+    "url": "#",
+    "title": "提前介入管理",
+    "children": [
+    {
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/aheadOfTimeCase/firstTrialM",
+        "id": "",
+        "url": "/aheadOfTimeCase/firstTrialM",
+        "title": "案件受理"
+     },
+	{
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/aheadOfTimeCase/auditDeliberation",
+        "id": "095434e88f2a4b748d68",
+        "url": "/aheadOfTimeCase/auditDeliberation",
+        "title": "案件审理"
+      },{
+        "menuid": "",
+        "icon": "&#xe638;",
+        "href": "/aheadOfTimeCase/feedbackIdea",
+        "id": "095434e88f2a4568d68",
+        "url": "/aheadOfTimeCase/feedbackIdea",
+        "title": "反馈意见"
+      }
+    ]
+  },
+   {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "申诉案件管理",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/acceptance",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/acceptance",
+        "title": "申诉受理"
+      }, {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/examine",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/examine",
+        "title": "复查复议"
+      }, {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/implement",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/implement",
+        "title": "申诉执行"
+      }
+    ]
+  },
+  {
+    "menuid": "101f42f0d09f40923434",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f4092863434",
+    "url": "#",
+    "title": "案件监督督导",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/caseSupervision",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/caseSupervision",
+        "title": "案件监督"
+      }
+     ]
+   },
+  
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "备案案件管理",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/recordManagement",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/recordManagement",
+        "title": "备案案件"
+      }
+    ]
+  },
+  {
+    "menuid": "4209ed808dde44dc96f2",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "4209ed808dde44dc96f2",
+    "url": "#",
+    "title": "案件授权管理",
+    "children": [
+      {
+        "menuid": "d930e30797cf42e9a5d1",
+        "icon": "&#xe636;",
+        "href": "/sameLevel",
+        "id": "d930e30797cf42e9a5d1",
+        "url": "/sameLevel",
+        "title": "本级案件授权"
+      }, {
+        "menuid": "4e2a75ad907a40a8b0a6",
+        "icon": "&#xe638;",
+        "href": "/subordinate",
+        "id": "4e2a75ad907a40a8b0a6",
+        "url": "/subordinate",
+        "title": "下级案件授权"
+      }
+    ]
+  }, 
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "智能辅助管理",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/policyBase",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/policyBase",
+        "title": "政策法规库"
+      }, {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/typicalCaseBase",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/typicalCaseBase",
+        "title": "典型案例库"
+      }
+    ]
+  },
+  
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "审理业务设置",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/approvalType",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/approvalType",
+        "title": "形式审核"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/filingType",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/filingType",
+        "title": "备案类型设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/processLimited",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/processLimited",
+        "title": "流程时限设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/linkMaterial",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/linkMaterial",
+        "title": "环节材料设置"
+      }
+    ]
+  },
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "审理文书设置",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/textTemplate",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/textTemplate",
+        "title": "文字模板设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/textCompilation",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/textCompilation",
+        "title": "文字编制"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/officialDoNo",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/officialDoNo",
+        "title": "公文函号"
+      }
+    ]
+  },
+ 
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "查询统计分析",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/simpleQuery",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/simpleQuery",
+        "title": "简单查询"
+      }, {
+        "menuid": "0954f3e66f2a4b748d45",
+        "icon": "&#xe638;",
+        "href": "/reportForm",
+        "id": "0954f3e66f2a4b748d45",
+        "url": "/reportForm",
+        "title": "报表统计"
+      }
+    ]
+  },
+  {
+    "menuid": "101f42f0d09f409286d5",
+    "icon": "&#xe60a;",
+    "href": "#",
+    "id": "101f42f0d09f409286d5",
+    "url": "#",
+    "title": "系统功能设置",
+    "children": [
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/organization",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/organization",
+        "title": "机构设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/user",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/user",
+        "title": "用户设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/role",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/role",
+        "title": "角色设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/jurisdiction",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/jurisdiction",
+        "title": "权限设置"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/notice",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/notice",
+        "title": "通知公告"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/dictionaries",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/dictionaries",
+        "title": "字典管理"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/menu",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/menu",
+        "title": "菜单管理"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/loginMsg",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/loginMsg",
+        "title": "登录日志审计"
+      },
+      {
+        "menuid": "0954f3e88f2a4b748d68",
+        "icon": "&#xe638;",
+        "href": "/operator",
+        "id": "0954f3e88f2a4b748d68",
+        "url": "/operator",
+        "title": "操作日志审计"
+      }
+    ]
+  }
+  
+]
